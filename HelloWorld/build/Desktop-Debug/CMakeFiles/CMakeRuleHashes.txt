@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+934e2ecf2caed3b538951e0a38c1d6ef CMakeFiles/HelloWorld_autogen
+934e2ecf2caed3b538951e0a38c1d6ef CMakeFiles/HelloWorld_autogen_timestamp_deps
+35bdb2c99dde51e5a2e218900c0ee80c HelloWorld_autogen/timestamp

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -DQT_QML_DEBUG -g CMakeFiles/ButtonWithName.dir/ButtonWithName_autogen/mocs_compilation.cpp.o CMakeFiles/ButtonWithName.dir/main.cpp.o CMakeFiles/ButtonWithName.dir/widget.cpp.o -o ButtonWithName  /usr/lib/libQt6Widgets.so.6.6.1 /usr/lib/libQt6Gui.so.6.6.1 /usr/lib/libQt6Core.so.6.6.1 /usr/lib/libGLX.so /usr/lib/libOpenGL.so 
