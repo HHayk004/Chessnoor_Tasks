@@ -1,0 +1,3 @@
+/home/haykenberg/C++/Chessnoor_Tasks/ArrayAndString/build/CMakeFiles/a.out.dir
+/home/haykenberg/C++/Chessnoor_Tasks/ArrayAndString/build/CMakeFiles/edit_cache.dir
+/home/haykenberg/C++/Chessnoor_Tasks/ArrayAndString/build/CMakeFiles/rebuild_cache.dir
