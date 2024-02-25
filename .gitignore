@@ -1,1 +1,19 @@
-./*/build/*
+# Ignore build folders
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore Visual Studio Code configuration folder
+.vscode/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Ignore compiled binaries and libraries
+*.exe
+*.out
+*.so
+*.dll
+
