@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 project(prog CXX)
 set(SOURCES
     ./main.cpp
+    ./func.h
     ./func.cpp
 )
 

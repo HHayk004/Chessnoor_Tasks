@@ -1,3 +1,5 @@
+#include "func.h"
+
 void changeByVal(int val)
 {
     val = 10;

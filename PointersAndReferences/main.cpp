@@ -1,9 +1,7 @@
 #include <iostream>
 #include <format>
 
-void changeByVal(int val);
-void changeByPtr(int* ptr);
-void changeByRef(int& ref);
+#include "func.h"
 
 int main()
 {
@@ -12,13 +10,13 @@ int main()
     int& number_ref = number;
 
     changeByVal(number);
-    std::cout << std::format("Number value is {}\n", number);
+    std::cout << std::format("Number value after changeByVal is {}\n", number);
 
     changeByPtr(number_ptr);
-    std::cout << std::format("Number value is {}\n", number);
+    std::cout << std::format("Number value after changeByPtr is {}\n", number);
 
     changeByRef(number_ref);
-    std::cout << std::format("Number value is {}\n", number);
+    std::cout << std::format("Number value after changeByRef is {}\n", number);
 
     return 0;
 }

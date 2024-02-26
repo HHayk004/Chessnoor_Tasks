@@ -23,9 +23,11 @@ int main()
         std::cin >> array[i];
     }
 
-    std::cout << std::format("Minimum of array is {}\n", minimumOfArray(array));
-    std::cout << std::format("Maximum of array is {}\n", maximumOfArray(array));
-    std::cout << std::format("Averange of array is {}\n", averangeOfArray(array));
+    void (*sort) (std::vector<int>&) = sortChoose();
+
+    sort(array);
+
+    std::cout << array;
 
     return 0;
 }

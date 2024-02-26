@@ -1,4 +1,4 @@
-#include <vector>
+#include "func.h"
 
 int minimumOfArray(const std::vector<int>& array)
 {
