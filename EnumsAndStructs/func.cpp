@@ -31,6 +31,11 @@ bool checkDate(const std::string& date_str, std::vector<int>& date_int)
 
         else if (sym == '.')
         {
+            if (date_str_unit.size() != 2)
+            {
+                return false;
+            }
+
             date_int.push_back(stoi(date_str_unit));
             date_str_unit = "";
         }
@@ -41,7 +46,8 @@ bool checkDate(const std::string& date_str, std::vector<int>& date_int)
         }
     }
 
-    if (date_int.size() != 2 || date_str_unit.empty())
+    if (date_int.size() != 2 || date_str_unit.empty() ||
+        date_str_unit[0] == '0')
     {
         return false;
     }
