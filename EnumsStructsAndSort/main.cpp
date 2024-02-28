@@ -24,7 +24,7 @@ int main()
     }
 
     SortType sort_obj;
-    sort_obj.input();
+    sortInput(sort_obj);
 
     sort_obj.sort_fptr(array);
 

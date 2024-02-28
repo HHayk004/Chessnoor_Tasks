@@ -1,15 +1,15 @@
 #include "func.h"
 
-void SortInput(SortType& sort)
+void sortInput(SortType& sort)
 {
     int sort_option_int = 0;
     do
     {
-        std::cout << "Enter the sorting Algotithm (0 for Selection, 1 for Bubble)"
+        std::cout << "Enter the sorting Algotithm (0 for Selection, 1 for Bubble)";
         std::cin >> sort_option_int;
     } while (0 < sort_option_int && sort_option_int > 1);
 
-    sort.sort_option = static_casr<SortingAlgorithms>(sort_option_int);
+    sort.sort_option = static_cast<SortingAlgorithms>(sort_option_int);
 
     switch (sort.sort_option)
     {
